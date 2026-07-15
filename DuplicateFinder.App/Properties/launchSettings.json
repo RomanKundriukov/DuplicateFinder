@@ -1,9 +1,9 @@
 {
   "profiles": {
-    "DuplicateFinder (Package)": {
+    "DuplicateFinder.App (Package)": {
       "commandName": "MsixPackage"
     },
-    "DuplicateFinder (Unpackaged)": {
+    "DuplicateFinder.App (Unpackaged)": {
       "commandName": "Project"
     }
   }

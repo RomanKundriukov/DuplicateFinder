@@ -9,14 +9,14 @@
   IgnorableNamespaces="uap rescap systemai">
 
   <Identity
-    Name="B10A55B0-FFCD-4E6E-B998-5F007815CB37"
+    Name="3E1AA0E0-888A-4F69-AADB-434F3CAEBCF2"
     Publisher="CN=AppPublisher"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="B10A55B0-FFCD-4E6E-B998-5F007815CB37" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="3E1AA0E0-888A-4F69-AADB-434F3CAEBCF2" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>DuplicateFinder</DisplayName>
+    <DisplayName>DuplicateFinder.App</DisplayName>
     <PublisherDisplayName>AppPublisher</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -35,8 +35,8 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="DuplicateFinder"
-        Description="DuplicateFinder"
+        DisplayName="DuplicateFinder.App"
+        Description="DuplicateFinder.App"
         BackgroundColor="transparent"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png">

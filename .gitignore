@@ -1,1 +1,11 @@
 ﻿.vs
+DuplicateFinder.Application/x64
+DuplicateFinder.Domain/x64
+DuplicateFinder.Infrastructure/x64
+DuplicateFinder.NativeCore/x64
+DuplicateFinder.Persistence/x64
+DuplicateFinder.Tests/x64
+DuplicateFinder.xUnitTests/bin
+DuplicateFinder.xUnitTests/obj
+x64
+packages

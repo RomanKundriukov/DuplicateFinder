@@ -1,13 +1,21 @@
 <Solution>
   <Configurations>
-    <Platform Name="ARM64" />
+    <Platform Name="Any CPU" />
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="DuplicateFinder/DuplicateFinder.csproj">
-    <Platform Solution="*|ARM64" Project="ARM64" />
+  <Project Path="DuplicateFinder.App/DuplicateFinder.App.csproj">
     <Platform Solution="*|x64" Project="x64" />
     <Platform Solution="*|x86" Project="x86" />
-    <Deploy />
+    <Platform Solution="Debug|Any CPU" Project="x64" />
+    <Deploy Solution="*|x64" />
+    <Deploy Solution="*|x86" />
   </Project>
+  <Project Path="DuplicateFinder.Application/DuplicateFinder.Application.vcxproj" Id="4ee0cba5-e41f-4934-afd8-77f3895639b1" />
+  <Project Path="DuplicateFinder.Domain/DuplicateFinder.Domain.vcxproj" Id="73934fd5-09eb-4b59-8462-1293bc0729ba" />
+  <Project Path="DuplicateFinder.GoogleTests/DuplicateFinder.GoogleTests.vcxproj" Id="23f48959-45f0-4748-9217-065a324a3859" />
+  <Project Path="DuplicateFinder.Infrastructure/DuplicateFinder.Infrastructure.vcxproj" Id="78fa994e-ea6f-4413-8d80-6c12177dc282" />
+  <Project Path="DuplicateFinder.NativeCore/DuplicateFinder.NativeCore.vcxproj" Id="7eb10d4c-09f3-4e9c-8f5b-5675ddea4760" />
+  <Project Path="DuplicateFinder.Persistence/DuplicateFinder.Persistence.vcxproj" Id="d5182314-617a-4a85-9eb1-bd7b51e8beae" />
+  <Project Path="DuplicateFinder.xUnitTests/DuplicateFinder.xUnitTests.csproj" Id="2d9f570b-5e06-4bc4-81cc-ca6861d1115e" />
 </Solution>
